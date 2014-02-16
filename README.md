@@ -34,7 +34,7 @@ provider.on('validate_user', function(api, connection, next){
 provider.on('validate_client', function(api, connection, next){
   var client_id = connection.params.client_id;
   
-  if(/*client_id valid?/*){
+  if(/*client_id valid?*/){
     next();
   }else{
     connection.error = 'invalid client id!';
@@ -47,7 +47,7 @@ provider.on('validate_grant', function(api, connection, next){
   var client_id = connection.params.client_id;
   var user_id = connection.session.user_id;
   
-  if(/*grants exists?/*){
+  if(/*grants exists?*/){
     next();
   }else{
     //redirect
