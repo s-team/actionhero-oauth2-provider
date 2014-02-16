@@ -1,0 +1,16 @@
+{
+  "name": "actionhero-oauth2-provider",
+  "version": "1.0.0",
+  "description": "ActionHero OAuth2 Provider",
+  "keywords": ["actionhero", "oauth2", "provider"],
+  "author": "Philipp Waldmann <philipp.waldmann@s-team.at>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/s-team/actionhero-oauth2-provider.git"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "oauth2-provider": ">=1.3.x"
+  },
+  "devDependencies": {}
+}
