@@ -1,6 +1,6 @@
 {
   "name": "actionhero-oauth2-provider",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "ActionHero OAuth2 Provider",
   "keywords": ["actionhero", "oauth2", "provider"],
   "author": "Philipp Waldmann <philipp.waldmann@s-team.at>",
